@@ -1,9 +1,9 @@
-import { Widget } from "./components/Widget";
+import { WidgetButton } from "./components/Widget/Button";
 
 export const App = () => {
   return (
     <div id="app">
-      <Widget />
+      <WidgetButton />
     </div>
   );
 };
